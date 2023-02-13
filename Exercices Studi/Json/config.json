@@ -1,0 +1,29 @@
+// Un objet contenant :
+
+// un stade (stadium) qui contient un identifiant (id) 18, un libellé (label) "Stade de France" et deux terrains (fields)
+
+// un premier terrain qui contient un identifiant (id) 2, un libellé (label) "Terrain de foot" et une surface (area) 200
+
+// un second terrain qui contient un identifiant (id) 5, un libellé (label) "Terrain de rugby" et une surface (area) null
+
+
+{
+    "stadium": {
+        "id": 18,
+        "label": "stade de France",
+        "fields": [ 
+            {
+                "id": 2,
+                "label": "Terrain de foot",
+                "area": 200
+            }, 
+            {
+                "id": 5,
+                "label": "Terrain de rugby",
+                "area": null
+            }
+        ]
+    }
+
+}
+
